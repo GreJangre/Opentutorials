@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+   <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <style>
+        .btn {
+            text-decoration: none;
+            font-size: 3rem;
+            color: whitesmoke;
+            padding: 10px 20px 10px 20px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 11px; /* 둥근 모서리 */
+            transition: all 0.1s; /* 자연스럽게 눌리는 효과 */
+            text-shadow: 0px -2px rgba(0, 0, 0, 0.44);
+            font-family: "Lobstar Two", cursive;
+        }
+        .btn:active {
+            transform: translateY(3px);
+        }
+        .btn.blue {
+            background-color: #1f75d9;
+            border-bottom: 5px solid #165195; /* 그림자 효과*/
+        }
+        .btn.blue:active {
+            border-bottom: 2px solid #165195;
+        }
+        .btn.red {
+            background-color: #ff521e;
+            border-bottom: 5px solid #c1370e; /* 그림자 효과*/
+        }
+        .btn.red:active {
+            border-bottom: 2px solid #c1370e;
+        }
+    </style>
+</head>
+<body>
+    <a class="btn blue" href="#blue">blue</a>
+    <a class="btn red" href="#red">red</a>
+</body>
+</html>

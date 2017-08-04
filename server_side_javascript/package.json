@@ -1,0 +1,24 @@
+{
+  "name": "server_side_javascript",
+  "version": "1.0.0",
+  "description": "node js",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GreJangre/server_side_javascript.git).git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreJangre/server_side_javascript.git)/issues"
+  },
+  "homepage": "https://github.com/GreJangre/server_side_javascript.git)#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "underscore": "^1.8.3"
+  }
+}

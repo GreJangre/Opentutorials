@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .align {
+            display: flex;
+        }
+        .thumbnail {
+            background-color: gray;
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border: 5px solid black;
+        }
+        
+        .thumbnail.round {
+            border-radius: 10%;
+        }
+        
+        .thumbnail.circle {
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="align">
+        <div class="thumbnail" style="background-image:url('img/Dean.jpg')"></div>
+
+        <div class="thumbnail round" style="background-image:url('img/Dean.jpg')"></div>
+
+        <div class="thumbnail circle" style="background-image:url('img/Dean.jpg')"></div>
+    </div>
+</body>
+
+</html>

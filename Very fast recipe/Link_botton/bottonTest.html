@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .button {
+            color: snow;
+            font-size: 50px;
+            text-shadow: 0px -2px rgba(0, 0, 0, 0.44);
+            text-decoration: none;
+            padding: 15px 15px 7px 15px;
+            display: inline-block;
+            border-radius: 15px;
+            transition: all 0.1s;
+        }
+        .button:active {
+            transform: translateY(2px); 
+        }
+        .button.black {
+            background-color: #222241;
+            border-bottom: 4px solid black;
+            margin: 30px;
+        }
+        .button.black:active {
+            border-bottom: 2px solid black;
+        }
+        .button.white {
+            background-color: #c3dbde;
+            border-bottom: 4px solid #73909d;
+            margin: 30px;
+        }
+        .button.white:active {
+            border-bottom: 2px solid #73909d;
+        }
+    </style>
+</head>
+<body>
+    <a class="button black" href="">black</a>
+    <a class="button white" href="">white</a>
+</body>
+</html>
